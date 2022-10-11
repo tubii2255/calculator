@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <script src="script.js"></script>
+    <div id="square"></div>
+    <div id="main_body">
+       
+        <div id="calc">
+            <div id="output"> 
+                <input type="text" id="answer_body">
+
+            </div>
+           
+            <div id="Buttons">
+                <div class="row1">
+                    <button onclick="press(7)" class="bts">7</button>
+                    <button onclick="press(8)" class="bts">8</button>
+                    <button onclick="press(9)" class="bts">9</button>
+                    <button onclick="clear1()" class="bts">AC</button>
+
+                </div>
+                <div class="row1">
+                    <button onclick="press(4)" class="bts">4</button>
+                    <button onclick="press(5)" class="bts">5</button>
+                    <button onclick="press(6)" class="bts">6</button>
+                    <button onclick="press('+')" class="bts">+</button>
+
+                </div>
+                <div class="row1">
+                    <button onclick="press(1)" class="bts">1</button>
+                    <button onclick="press(2)" class="bts">2</button>
+                    <button onclick="press(3)" class="bts">3</button>
+                    <button onclick="press('-')" class="bts">-</button>
+
+                </div>
+                <div class="row1">
+                    <button onclick="press('.')" class="bts">.</button>
+                    <button onclick="press(0)" class="bts">0</button>
+                    <button style="width:80px ; " onclick="answer()" class="bts">=</button>
+                    <button style="margin-left:5px ;" onclick="press('*')" class="bts">x</button>
+
+                </div>
+                
+
+            </div>
+
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>
